@@ -17,3 +17,16 @@ echo $test3 . "<br />\n";
 // 1999
 // 1998
 // 1999
+
+
+echo intval("0x1a", 0), "\n";
+
+echo intval("057", 0), "\n";
+
+
+
+$arr = array(1,2,3,4,5);
+  
+// This will print only the type of value
+// being converted i.e. 'Array'
+echo strval($arr), "\n";
